@@ -23,19 +23,20 @@
   --gold: #f2b705;
   --gold-ink: #3a2a00;
   --track: #efe6e1;
+  --green: #0f6b34;
   --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
   --body: "Barlow", "Segoe UI", system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #17110f; --surface: #221917; --ink: #f4ebe6; --muted: #b3a29b; --line: #3a2d29;
-    --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f;
+    --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f; --green: #5fd38d;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #17110f; --surface: #221917; --ink: #f4ebe6; --muted: #b3a29b; --line: #3a2d29;
-  --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f;
+  --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f; --green: #5fd38d;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -81,8 +82,8 @@ h2 { font-family: var(--display); font-weight: 800; font-size: 26px; margin: 0; 
 .barra { height: 6px; background: var(--track); border-radius: 3px; overflow: hidden; }
 .barra i { display: block; height: 100%; background: var(--red); border-radius: 3px; }
 .rca:first-child .barra i { background: var(--gold); }
-.r-meta { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.r-meta b { color: var(--ink); font-weight: 600; }
+.r-meta { font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.r-meta b { color: var(--green); font-weight: 800; font-size: 15px; }
 .r-pts { font-family: var(--display); font-weight: 800; font-size: 24px; font-variant-numeric: tabular-nums; text-align: right; }
 .rodape { font-size: 12.5px; color: var(--muted); }
 @media (max-width: 420px) { .rca { grid-template-columns: 18px 40px 1fr auto; gap: 10px; } .r-foto { width: 40px; height: 40px; } .r-pts { font-size: 21px; } }
@@ -631,7 +632,7 @@ h2 { font-family: var(--display); font-weight: 800; font-size: 26px; margin: 0; 
       <span class="r-pts">3.323</span>
     </li></ol>
 </section></div>
-  <p class="rodape">Fonte: relatório 1464 – Apuração de Faturamento, fornecedor Excelência, gerado em 20/10/2026 21:10. Positivações contam cada cliente em cada produto. Painel montado em 20/10/2026 21:33.</p>
+  <p class="rodape">Fonte: relatório 1464 – Apuração de Faturamento, fornecedor Excelência, gerado em 20/10/2026 21:10. Positivações contam cada cliente em cada produto. Painel montado em 20/10/2026 21:35.</p>
 </main>
 
 </body>
