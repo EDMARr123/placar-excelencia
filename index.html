@@ -24,19 +24,20 @@
   --gold-ink: #3a2a00;
   --track: #efe6e1;
   --green: #0f6b34;
+  --lider: #e3f5e8;
   --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
   --body: "Barlow", "Segoe UI", system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #17110f; --surface: #221917; --ink: #f4ebe6; --muted: #b3a29b; --line: #3a2d29;
-    --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f; --green: #5fd38d;
+    --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f; --green: #5fd38d; --lider: #1d3b28;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #17110f; --surface: #221917; --ink: #f4ebe6; --muted: #b3a29b; --line: #3a2d29;
-  --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f; --green: #5fd38d;
+  --red: #e0334f; --red-ink: #ffffff; --gold: #f5c22e; --gold-ink: #2b1f00; --track: #33261f; --green: #5fd38d; --lider: #1d3b28;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -62,7 +63,7 @@ main { padding-block: 24px 48px; display: grid; gap: 28px; }
 .podio { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
 .sup { position: relative; display: grid; justify-items: center; gap: 4px; padding: 6px 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; color: inherit; text-decoration: none; text-align: center; }
 .sup:hover, .sup:focus-visible { border-color: var(--red); outline: none; }
-.sup:first-child { border: 2px solid var(--gold); }
+.sup:first-child { border: 2px solid var(--gold); background: var(--lider); }
 .pos-n { position: absolute; top: 8px; left: 10px; font-family: var(--display); font-weight: 800; font-size: 20px; color: var(--muted); }
 .sup:first-child .pos-n { color: var(--gold); }
 .sup-foto { height: 170px; width: auto; max-width: 100%; object-fit: contain; object-position: bottom; margin-top: 10px; border-bottom: 3px solid var(--red); }
