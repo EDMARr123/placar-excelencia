@@ -47,8 +47,13 @@ body { background: var(--bg); color: var(--ink); font-family: var(--body); font-
 .eyebrow { font-family: var(--display); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: 14px; opacity: .85; }
 h1 { font-family: var(--display); font-weight: 800; font-size: clamp(38px, 7vw, 64px); line-height: .95; margin: 4px 0 8px; text-transform: uppercase; text-wrap: balance; }
 .regra { font-size: 14px; opacity: .92; max-width: 60ch; }
-.total { text-align: right; }
-.total b { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(44px, 8vw, 72px); line-height: 1; color: var(--gold); font-variant-numeric: tabular-nums; }
+.totais { display: flex; flex-wrap: wrap; gap: 12px 28px; }
+.total { text-align: right; display: grid; gap: 2px; }
+.total b i { font-style: normal; font-size: .45em; letter-spacing: .04em; }
+.total em { font-style: normal; font-size: 13px; opacity: .9; }
+.tend { padding-left: 28px; border-left: 2px solid rgba(255,255,255,.35); }
+@media (max-width: 560px) { .total { text-align: left; } .tend { padding-left: 0; border-left: 0; } }
+.total b { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(40px, 6vw, 60px); line-height: 1; color: var(--gold); font-variant-numeric: tabular-nums; }
 .total span { font-family: var(--display); font-weight: 600; letter-spacing: .1em; text-transform: uppercase; font-size: 14px; }
 main { padding-block: 24px 48px; display: grid; gap: 28px; }
 .podio { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
@@ -96,7 +101,10 @@ h2 { font-family: var(--display); font-weight: 800; font-size: 26px; margin: 0; 
       <h1>Placar da Excelência</h1>
       <p class="regra">Industrializados: 10 pontos por cliente positivado e 50 por kg. In natura: 50 pontos por cliente e 100 por kg.</p>
     </div>
-    <div class="total"><b>636.228</b><span>pontos da equipe GYN</span></div>
+    <div class="totais">
+      <div class="total"><span>Peso vendido · equipe GYN</span><b>8.318 <i>kg</i></b></div>
+      <div class="total tend"><span>Tendência do mês</span><b>13.517 <i>kg</i></b><em>16 de 26 dias úteis · meta 24.200 kg (56%)</em></div>
+    </div>
   </div>
 </div>
 <main>
@@ -632,7 +640,7 @@ h2 { font-family: var(--display); font-weight: 800; font-size: 26px; margin: 0; 
       <span class="r-pts">3.323</span>
     </li></ol>
 </section></div>
-  <p class="rodape">Fonte: relatório 1464 – Apuração de Faturamento, fornecedor Excelência, gerado em 20/10/2026 21:10. Positivações contam cada cliente em cada produto. Painel montado em 20/10/2026 21:35.</p>
+  <p class="rodape">Fonte: relatório 1464 – Apuração de Faturamento, fornecedor Excelência, gerado em 20/10/2026 21:10. Positivações contam cada cliente em cada produto. Painel montado em 20/10/2026 21:36.</p>
 </main>
 
 </body>
