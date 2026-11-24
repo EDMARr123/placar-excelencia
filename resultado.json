@@ -1,9 +1,9 @@
 {
- "periodo": "01/11/2026 a 23/11/2026",
- "gerado_pdf": "23/11/2026 08:50",
+ "periodo": "01/11/2026 a 24/11/2026",
+ "gerado_pdf": "24/11/2026 10:10",
  "fechado": false,
  "meta_kg": 24200,
- "peso_total": 20548.4,
+ "peso_total": 22006.91,
  "meta_sup": {
   "LEANDRO": 4456,
   "RICHARD": 3856,
@@ -26,47 +26,54 @@
    "RODRIGO"
   ]
  ],
- "dias_pass": 17,
+ "dias_pass": 18,
  "dias_mes": 23,
- "dias_rest": 6,
- "tendencia": 27800.776470588236,
- "meta_dia": 608.5999999999998,
+ "dias_rest": 5,
+ "tendencia": 28119.940555555557,
+ "meta_dia": 438.61800000000005,
  "equipes": {
   "LEANDRO": [
    {
     "cod": "15",
     "nome": "WESLEY",
-    "pts": 55342,
-    "pos": 27,
-    "peso": 633.5500000000001
+    "pts": 57306,
+    "pos": 28,
+    "peso": 652.6899999999999
    },
    {
     "cod": "650",
     "nome": "ANDRE WILKER",
-    "pts": 37898,
-    "pos": 41,
-    "peso": 569.55
+    "pts": 39948,
+    "pos": 42,
+    "peso": 589.55
    },
    {
     "cod": "85",
     "nome": "CARLOS HENRIQUE",
-    "pts": 30536,
-    "pos": 19,
-    "peso": 346.65999999999997
+    "pts": 37726,
+    "pos": 23,
+    "peso": 449.17999999999995
    },
    {
     "cod": "192",
     "nome": "LUCAS LEAL",
-    "pts": 28098,
-    "pos": 13,
-    "peso": 290.68
+    "pts": 30148,
+    "pos": 14,
+    "peso": 310.68
+   },
+   {
+    "cod": "649",
+    "nome": "WALLACE SOUSA",
+    "pts": 21168,
+    "pos": 12,
+    "peso": 216.88
    },
    {
     "cod": "83",
     "nome": "MARCOS SILVA",
-    "pts": 19791,
-    "pos": 32,
-    "peso": 295.81000000000006
+    "pts": 20946,
+    "pos": 33,
+    "peso": 318.72
    },
    {
     "cod": "81",
@@ -74,36 +81,29 @@
     "pts": 19160,
     "pos": 8,
     "peso": 196.4
-   },
-   {
-    "cod": "649",
-    "nome": "WALLACE SOUSA",
-    "pts": 18568,
-    "pos": 10,
-    "peso": 191.88
    }
   ],
   "RICHARD": [
    {
     "cod": "473",
     "nome": "KAIKY DIAS",
-    "pts": 102118,
-    "pos": 36,
-    "peso": 1157.83
+    "pts": 120928,
+    "pos": 39,
+    "peso": 1394.83
    },
    {
     "cod": "679",
     "nome": "RAFAEL COSTA",
-    "pts": 67352,
-    "pos": 38,
-    "peso": 771.4499999999999
+    "pts": 69662,
+    "pos": 40,
+    "peso": 796.4499999999999
    },
    {
     "cod": "687",
     "nome": "EDREY MARTINS",
-    "pts": 46526,
-    "pos": 30,
-    "peso": 543.72
+    "pts": 52347,
+    "pos": 33,
+    "peso": 614.74
    },
    {
     "cod": "334",
@@ -115,76 +115,83 @@
    {
     "cod": "42",
     "nome": "PAULO RONAN",
-    "pts": 27796,
-    "pos": 14,
-    "peso": 338.33
+    "pts": 32106,
+    "pos": 15,
+    "peso": 396.33
    },
    {
     "cod": "751",
     "nome": "JULIO CESAR",
-    "pts": 25390,
-    "pos": 11,
-    "peso": 315.0
+    "pts": 27650,
+    "pos": 12,
+    "peso": 360.0
    },
    {
     "cod": "806",
     "nome": "MARCIO GABRIEL",
-    "pts": 24019,
-    "pos": 7,
-    "peso": 250.98
+    "pts": 26519,
+    "pos": 9,
+    "peso": 274.98
    }
   ],
   "RODRIGO": [
    {
     "cod": "357",
     "nome": "LUCIANO",
-    "pts": 116102,
-    "pos": 51,
-    "peso": 1372.2299999999998
+    "pts": 119732,
+    "pos": 55,
+    "peso": 1431.2299999999998
    },
    {
     "cod": "347",
     "nome": "MATIAS",
-    "pts": 109120,
+    "pts": 109370,
     "pos": 57,
-    "peso": 1370.2299999999998
+    "peso": 1375.2299999999998
    },
    {
     "cod": "561",
     "nome": "THALLES VIEIRA",
-    "pts": 85036,
-    "pos": 16,
-    "peso": 864.3
+    "pts": 85296,
+    "pos": 17,
+    "peso": 869.3
    },
    {
     "cod": "47",
     "nome": "MARCELO",
-    "pts": 69818,
-    "pos": 41,
-    "peso": 844.1600000000001
+    "pts": 84648,
+    "pos": 46,
+    "peso": 1026.16
    },
    {
     "cod": "660",
     "nome": "LUCAS",
-    "pts": 13073,
+    "pts": 15124,
     "pos": 6,
-    "peso": 184.73000000000002
+    "peso": 205.24
    },
    {
     "cod": "807",
     "nome": "EDGARD",
-    "pts": 10462,
-    "pos": 10,
-    "peso": 164.73999999999998
+    "pts": 11722,
+    "pos": 11,
+    "peso": 189.73999999999998
    }
   ],
   "IDEGLAN": [
    {
     "cod": "439",
     "nome": "GUILHERME AUGUSTO",
-    "pts": 149307,
-    "pos": 64,
-    "peso": 1724.22
+    "pts": 150817,
+    "pos": 65,
+    "peso": 1754.22
+   },
+   {
+    "cod": "738",
+    "nome": "MARCEL HENRIQUE",
+    "pts": 107168,
+    "pos": 45,
+    "peso": 1233.81
    },
    {
     "cod": "428",
@@ -194,18 +201,11 @@
     "peso": 1032.71
    },
    {
-    "cod": "738",
-    "nome": "MARCEL HENRIQUE",
-    "pts": 94702,
-    "pos": 39,
-    "peso": 1100.95
-   },
-   {
     "cod": "45",
     "nome": "TIAGO",
-    "pts": 45468,
-    "pos": 28,
-    "peso": 553.56
+    "pts": 46498,
+    "pos": 31,
+    "peso": 573.5600000000001
    },
    {
     "cod": "722",
@@ -217,16 +217,16 @@
    {
     "cod": "622",
     "nome": "HAMBER",
-    "pts": 35376,
-    "pos": 14,
-    "peso": 406.71000000000004
+    "pts": 39074,
+    "pos": 16,
+    "peso": 480.26000000000005
    },
    {
     "cod": "164",
     "nome": "JOAO VITOR",
-    "pts": 28523,
-    "pos": 18,
-    "peso": 464.18999999999994
+    "pts": 30633,
+    "pos": 21,
+    "peso": 484.98999999999995
    }
   ],
   "FLAVIANE": [
@@ -240,23 +240,23 @@
    {
     "cod": "471",
     "nome": "ANTONIO EDVALDO",
-    "pts": 31777,
-    "pos": 26,
-    "peso": 347.17
+    "pts": 32120,
+    "pos": 28,
+    "peso": 353.64
    },
    {
     "cod": "657",
     "nome": "YURI ENRIQUE",
-    "pts": 28726,
-    "pos": 12,
-    "peso": 327.39
+    "pts": 29764,
+    "pos": 13,
+    "peso": 347.94999999999993
    },
    {
     "cod": "377",
     "nome": "CELISMAR",
-    "pts": 15883,
-    "pos": 13,
-    "peso": 220.32999999999998
+    "pts": 16942,
+    "pos": 14,
+    "peso": 241.32
    },
    {
     "cod": "810",
@@ -289,90 +289,90 @@
     "peso": 403.08
    },
    {
-    "cod": "698",
-    "nome": "FERNANDO O.",
-    "pts": 33744,
-    "pos": 19,
-    "peso": 377.76
-   },
-   {
     "cod": "644",
     "nome": "ALBERTO SANTOS",
-    "pts": 33269,
+    "pts": 35102,
     "pos": 11,
-    "peso": 663.18
+    "peso": 699.8499999999999
+   },
+   {
+    "cod": "698",
+    "nome": "FERNANDO O.",
+    "pts": 34504,
+    "pos": 20,
+    "peso": 392.76
    },
    {
     "cod": "467",
     "nome": "IGOR SA",
-    "pts": 11231,
-    "pos": 13,
-    "peso": 174.0
+    "pts": 12578,
+    "pos": 15,
+    "peso": 200.55
    },
    {
     "cod": "398",
     "nome": "UCLEIBSON",
-    "pts": 7550,
-    "pos": 6,
-    "peso": 129.0
+    "pts": 9800,
+    "pos": 7,
+    "peso": 151.0
    },
    {
     "cod": "16",
     "nome": "BERALDO",
-    "pts": 3624,
-    "pos": 4,
-    "peso": 58.89
+    "pts": 4992,
+    "pos": 6,
+    "peso": 85.85
    },
    {
     "cod": "723",
     "nome": "JEAN PIERRE",
-    "pts": 1030,
-    "pos": 4,
-    "peso": 19.8
+    "pts": 3060,
+    "pos": 7,
+    "peso": 59.8
    }
   ]
  },
  "totais": [
   {
    "sup": "IDEGLAN",
-   "pts": 495219,
-   "pos": 204,
-   "peso": 5792.1900000000005,
+   "pts": 516033,
+   "pos": 219,
+   "peso": 6069.4,
    "n": 7
   },
   {
    "sup": "RODRIGO",
-   "pts": 403611,
-   "pos": 181,
-   "peso": 4800.389999999999,
+   "pts": 425892,
+   "pos": 192,
+   "peso": 5096.9,
    "n": 6
   },
   {
    "sup": "RICHARD",
-   "pts": 335208,
-   "pos": 152,
-   "peso": 3843.49,
+   "pts": 371219,
+   "pos": 164,
+   "peso": 4303.51,
    "n": 7
   },
   {
    "sup": "LEANDRO",
-   "pts": 209393,
-   "pos": 150,
-   "peso": 2524.53,
+   "pts": 226402,
+   "pos": 160,
+   "peso": 2734.1,
    "n": 7
   },
   {
    "sup": "FLAVIANE",
-   "pts": 144484,
-   "pos": 84,
-   "peso": 1762.09,
+   "pts": 146924,
+   "pos": 88,
+   "peso": 1810.11,
    "n": 7
   },
   {
    "sup": "LUCAS",
-   "pts": 128588,
-   "pos": 66,
-   "peso": 1825.71,
+   "pts": 138176,
+   "pos": 75,
+   "peso": 1992.8899999999999,
    "n": 7
   }
  ]
